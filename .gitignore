@@ -1,8 +1,10 @@
-# Compiled class file
+.DS_Store
+# Compiled Java class files
 *.class
 
-# Log file
+# Log files
 *.log
+
 
 # BlueJ files
 *.ctxt
@@ -22,3 +24,35 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+
+# Eclipse IDE workspace files
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+#DemoJSP
+DemoJSP/local.properties
+DemoJSP/.settings/
+DemoJSP/.loadpath
+DemoJSP/.recommenders
+DemoJSP/.project
+DemoJSP/.classpath
+DemoJSP/bin/
+
+#DemoJSP
+DemoTags/local.properties
+DemoTags/.settings/
+DemoTags/.loadpath
+DemoTags/.recommenders
+DemoTags/.project
+DemoTags/.classpath
+DemoTags/bin/
+
+
+
+Servers/

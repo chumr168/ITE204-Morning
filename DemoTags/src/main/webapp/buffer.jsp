@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" %>
 <%-- Allocating a custom 16-kilobyte buffer and enabling auto-flush --%>
-<%@ page buffer="1b" autoFlush="true" %>
+<%@ page buffer="1kb" autoFlush="true" %>
 <!DOCTYPE html>
 <html>
 <head>

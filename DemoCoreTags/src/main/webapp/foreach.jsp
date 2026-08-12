@@ -10,12 +10,12 @@
 </head>
 <body>
 
-<c:forEach var="i" begin="200" step="2" end="210" varStatus="status">
+<c:forEach var="i" begin="1" step="1" end="10" varStatus="status">
 	<b>${i} current is ${status.current}</b><br>
 	<b>${i} index ${status.index}</b><br>
 	
-	<b>${i} is first ${status.first}</b><br>
-	<b>${i} is last ${status.last}</b><br>
+	<b>${i} is this first item? ${status.first}</b><br>
+	<b>${i} is this last item? ${status.last}</b><br>
 	<b>${i} step: ${status.step}</b><br>
 	
 </c:forEach>

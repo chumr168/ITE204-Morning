@@ -1,9 +1,17 @@
 package com.example;
 
 import java.io.Serializable;
-
+import lombok.Getter;
+import lombok.Setter;
+import lombok.NoArgsConstructor;
 
 //1st rule: must implement Serializable
+//use below annotations instead of creating boilerplate code of 
+//getter, setter, constructor
+@Getter
+@Setter
+@NoArgsConstructor
+
 public class JavaBeans implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
@@ -13,7 +21,12 @@ public class JavaBeans implements Serializable {
 	private String firstName;
 	private String lastName;
 	private String gender;
+	private String country;
 	
+	
+	
+	/*
+	 
 	//3rd rule: must have no-argument constructor
 	public JavaBeans()
 	{
@@ -70,5 +83,6 @@ public class JavaBeans implements Serializable {
 		this.gender = gender;
 	}
 	
-
+*/
+	
 }

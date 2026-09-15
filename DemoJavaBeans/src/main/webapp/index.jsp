@@ -17,6 +17,7 @@
 	First name: <input type="text" name="firstName" required><br>
 	Last name: <input type="text" name="lastName" required><br>
 	Gender: <input type="text" name="gender" required><br>
+	Country: <input type="text" name="country" required><br>
 	<input type="submit" value="Register Now!">
 
 

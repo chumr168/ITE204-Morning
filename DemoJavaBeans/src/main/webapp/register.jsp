@@ -28,6 +28,10 @@
 	<strong>Gender</strong>
 	<jsp:getProperty property="gender" name="user"/>
 </p>
+<p>
+	<strong>Country</strong>
+	<jsp:getProperty property="country" name="user"/>
+</p>
 
 
 
